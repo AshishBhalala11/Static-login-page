@@ -43,7 +43,7 @@ const Login = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <div
         className="absolute top-0 left-0 bg-cover bg-center w-full"
-        style={{ backgroundImage: "url('/img/login_bg.png')", height: "35%" }}
+        style={{ backgroundImage: "url('https://AshishBhalala11.github.io/Static-login-page/img/login_bg.png')", height: "35%" }}
       ></div>
       <div
         className="bg-white w-5/12 absolute bottom-0"
@@ -62,7 +62,7 @@ const Login = () => {
         <div className="flex justify-center items-center mt-6">
           <img
             className="w-7/12"
-            src="/img/tree.png"
+            src="https://AshishBhalala11.github.io/Static-login-page/img/tree.png"
             alt="Tree Icon missing"
           ></img>
         </div>
@@ -87,7 +87,7 @@ const Login = () => {
               />
               {emailError && (
                 <div>
-                  <img className="inline" src="/img/error.svg" alt=""></img>
+                  <img className="inline" src="https://AshishBhalala11.github.io/Static-login-page/img/error.svg" alt=""></img>
                   <span className="text-rose-600 text-sm mt-1 ml-1">
                     {emailError}
                   </span>
@@ -95,7 +95,7 @@ const Login = () => {
               )}
               {!email && (
                 <div>
-                  <img className="inline" src="/img/error.svg" alt=""></img>
+                  <img className="inline" src="https://AshishBhalala11.github.io/Static-login-page/img/error.svg" alt=""></img>
                   <span className="text-rose-600 text-sm mt-1 ml-1">
                     The email is required
                   </span>
@@ -138,11 +138,11 @@ const Login = () => {
           </div>
           <div className="text-sm mt-3 text-center">or</div>
           <button className="flex bg-blue-600 text-white w-full p-1 mt-6 items-center">
-						<img className="" src="/img/google.png" alt=""></img>
+						<img className="" src="https://AshishBhalala11.github.io/Static-login-page/img/google.png" alt=""></img>
 						<div className="uppercase w-full text-center">Continue with Google</div>
 					</button>
 					<button className="flex bg-blue-600 text-white w-full p-1 mt-6 items-center">
-						<img className="" src="/img/facebook.png" alt=""></img>
+						<img className="" src="https://AshishBhalala11.github.io/Static-login-page/img/facebook.png" alt=""></img>
 						<div className="uppercase w-full text-center">Continue with Facebook</div>
 					</button>
         </form>
